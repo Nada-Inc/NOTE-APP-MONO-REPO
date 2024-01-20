@@ -23,7 +23,7 @@ cargo tauri dev
 
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/ananduremanan/win-app-noteapp/main/screenshot/note-app-home-windows.png?token=GHSAT0AAAAAACB4JHGAV7FBR4ZTM44ZBUOIZNLMDWQ)
+![App Screenshot](https://raw.githubusercontent.com/ananduremanan/Demo/main/Screenshot%20(8).png)
 
 Figure Note App Running In Windows. 
 
