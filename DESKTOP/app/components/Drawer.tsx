@@ -59,15 +59,16 @@ export default function Drawer() {
         </div>
       </div>
       <div className="mt-2">
-        <div
+        <Link
+          href="/"
           className={`flex items-center p-2 drawer-item gap-4 rounded-md mb-1 justify-center lg:justify-start`}
         >
           <VscNotebook />
           <div className="hidden lg:block">Notes</div>
-        </div>
+        </Link>
         <div className="">
           <Link
-            href="/Reminder"
+            href="/pages/Reminder"
             className={`flex items-center p-2 drawer-item gap-4 rounded-md mb-1 justify-center lg:justify-start`}
           >
             <TfiTimer />

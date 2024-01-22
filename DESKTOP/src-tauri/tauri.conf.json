@@ -23,6 +23,9 @@
         "startDragging": true,
         "setMinSize": true,
         "setMaxSize": true
+      },
+      "dialog": {
+        "all": true
       }
     },
     "bundle": {
@@ -40,7 +43,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "nadalabs.noteapp.dev",
       "longDescription": "",
       "macOS": {
         "entitlements": null,

@@ -1,4 +1,4 @@
-import Notes from "./pages/Notes";
+import Notes from "./pages/Notes/page";
 
 export default function Home() {
   return (
