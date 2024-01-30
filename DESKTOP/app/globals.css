@@ -25,6 +25,12 @@ body {
   color: rgb(var(--foreground-rgb));
   background: #f9f9f9;
   font-family: "Segoe", sans-serif;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
 .children-wrapper {
@@ -37,6 +43,10 @@ body {
 }
 
 .drawer-item:hover {
+  background-color: #eaeaea;
+}
+
+.drawer-active {
   background-color: #eaeaea;
 }
 

@@ -26,6 +26,16 @@
       },
       "dialog": {
         "all": true
+      },
+      "path": {
+        "all": true
+      },
+      "fs": {
+        "all": true,
+        "writeFile": true,
+        "removeFile": true,
+        "readFile": true,
+        "scope": ["**"]
       }
     },
     "bundle": {
@@ -73,7 +83,7 @@
         "resizable": true,
         "title": "Note App",
         "decorations": false,
-        "minWidth": 320,
+        "minWidth": 769,
         "minHeight": 100
       }
     ]

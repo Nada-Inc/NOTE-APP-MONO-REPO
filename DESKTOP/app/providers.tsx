@@ -11,6 +11,8 @@ import {
   webLightTheme,
 } from "@fluentui/react-components";
 import { useServerInsertedHTML } from "next/navigation";
+import { RootState, store } from "./redux/store";
+import { Provider } from "react-redux";
 
 export function Providers({ children }: { children: React.ReactNode }) {
   const [renderer] = React.useState(() => createDOMRenderer());
@@ -20,12 +22,14 @@ export function Providers({ children }: { children: React.ReactNode }) {
   });
 
   return (
-    <RendererProvider renderer={renderer}>
-      <SSRProvider>
-        <FluentProvider theme={webLightTheme} className="ml-1">
-          {children}
-        </FluentProvider>
-      </SSRProvider>
-    </RendererProvider>
+    <Provider store={store}>
+      <RendererProvider renderer={renderer}>
+        <SSRProvider>
+          <FluentProvider theme={webLightTheme} className="ml-1">
+            {children}
+          </FluentProvider>
+        </SSRProvider>
+      </RendererProvider>
+    </Provider>
   );
 }

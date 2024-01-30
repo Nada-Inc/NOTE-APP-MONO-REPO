@@ -14,8 +14,6 @@ export const useStyles = makeStyles({
     right: "1rem",
   },
   button: {
-    backgroundColor: "#fff",
-    color: "#000",
     width: "50%",
   },
   searchField: {
