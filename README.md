@@ -4,7 +4,7 @@ Welcome to the Mono Repo For the cross-platform version of Note App For All Your
 
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/ananduremanan/Demo/main/Screenshot%20(8).png)
+![App Screenshot](https://raw.githubusercontent.com/ananduremanan/Demo/main/windows.png)
 
 Figure Note App Running In Windows. 
 
