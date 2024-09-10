@@ -2,7 +2,8 @@
 
 Welcome to the Mono Repo For the cross-platform version of Note App For All Your Devices From a Minimnal Code Base based on React.js.
 
-## Screenshots
+
+<!-- ## Screenshots
 
 ![App Screenshot](https://raw.githubusercontent.com/ananduremanan/Demo/main/windows.png)
 
@@ -10,7 +11,7 @@ Figure Note App Running In Windows.
 
 ![App Screenshot](https://raw.githubusercontent.com/ananduremanan/Demo/main/Group%208.png)
 
-Figure Note App Running In a Pixel Device. 
+Figure Note App Running In a Pixel Device. -->
 
 ## Badges
 
